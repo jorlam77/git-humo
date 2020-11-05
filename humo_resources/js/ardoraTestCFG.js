@@ -27,11 +27,11 @@ borderOk="#008000"; borderTime="#FF0000";borderError="#FF0000"; borderAttempts="
 var wordsGame="aHVtbw"; wordsStr = "ABCDEFGHIJKLMNOPQRSTUVWXYZabcdefghijklmnopqrstuvwxyz0123456789+/=";
 function giveZindex(typeElement){var valueZindex=0; capas=document.getElementsByTagName(typeElement);
 for (i=0;i<capas.length;i++){if (parseInt($(capas[i]).css("z-index"),10)>valueZindex){valueZindex=parseInt($(capas[i]).css("z-index"),10);}}return valueZindex;}
-var tags=["¿Qué es la combustión?","¿Cuales son los 3 componentes que se encuentran presentes en la combustión?","¿Cuáles son los efectos que causan en la salud de las personas al inhalar humo en un incendio?","¿El humo de un incendio como esta echo?"];
+var tags=["¿Qué es la combustión?","¿Cuales son los 3 componentes que se encuentran presentes en la combustión?","¿Cuáles son los efectos que causan en la salud de las personas al inhalar humo en un incendio?","¿El humo de un incendio como esta hecho?"];
 var answers1=["MUVzIHVuIHByb2Nlc28gcXXtbWljby4","MEVzIHVuIHByb2Nlc28gZu1zaWNvLg","MEVzIHVuIHByb2Nlc28gb3BlcmF0aXZvLg"];
 var answers2=["MUNvbWJ1c3RpYmxlLiBDaWdhcnJpbGxvLg","MUNvbWJ1cmVudGUuIE947Wdlbm8u","MUZ1ZW50ZSBkZSBpZ25pY2nzbi4gRnVlZ28u","MEhlbGlvLg","MEhpZHLzZ2Vuby4","MEFyZ/NuLg"];
 var answers3=["MVByb2JsZW1hIGRlIGlycml0YWNp824gZW4gbGEgdHLhcXVlYS4","MURlcPNzaXRvIGRlIGNpZXJ0YSBzdXN0YW5jaWFzIHTzeGljYXMgYWwgbml2ZWwgZGUgbG9zIGFsdulvbG9zLg","MVByb2Nlc28gZGUgaGVtYXRvc2lzIHJlZHVjaWVuZG8gbGEgY2FudGlkYWQgZGUgb3jtZ2Vuby4","MU11ZXJ0ZSBwcmVtYXR1cmEu","MERvbG9yZXMgZXN0b21hY2FsZXMu","MFByb2JsZW1hcyBlbiBlbCBjZXJlYnJvLg","MFByb2JsZW1hcyBlbiBsYSBwaWVsLg"];
-var answers4=["MUVzdOEgZWNobyBkZSAgdW5hIG1lemNsYSBkZSBnYXNlcyB5IHBhcnTtY3VsYXMgZmluYXMu","MEVzdOEgZWNobyBkZSB1bmEgbWV6Y2xhIGRlIGdhc2VzLg","MEVzdOEgZWNobyBkZSB1bmEgbWV6Y2xhIGRlICBwYXJ0aWN1bGFzIGZpbmFzLg"];
+var answers4=["MUVzdOEgaGVjaG8gZGUgIHVuYSBtZXpjbGEgZGUgZ2FzZXMgeSBwYXJ07WN1bGFzIGZpbmFzLg","MEVzdOEgaGVjaG8gZGUgdW5hIG1lemNsYSBkZSBnYXNlcy4","MEVzdOEgaGVjaG8gZGUgdW5hIG1lemNsYSBkZSAgcGFydGljdWxhcyBmaW5hcy4"];
 var ans=[answers1,answers2,answers3,answers4];
 var err=["¡Inténtalo de nuevo!","¡Inténtalo de nuevo!","¡Inténtalo de nuevo!","¡Inténtalo de nuevo!"];
 var ima=["Combustion-2.jpg","Combustion-2.jpg","incendio.jpg","incendio.jpg"];
